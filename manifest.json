@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "RisuAI-Shortcuts",
+    "version": "1.0",
+    "description": "",
+    "content_scripts": [
+      {
+        "matches": ["https://risuai.xyz/", "https://risuai.xyz/?", "https://risuai.xyz/?mainpage=visited"],
+        "js": ["index.js"]
+      }
+    ]
+  }
